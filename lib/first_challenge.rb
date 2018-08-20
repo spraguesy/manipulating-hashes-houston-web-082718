@@ -18,7 +18,7 @@ def first_challenge
     value.each do |att, data|
       if att == 'Freddy Mercucry'
         data.each do |arr, index|
-          arr.delete_if(index)
+          arr.delete_if{|x| x == "strawberry"}
         end
       end
     end
