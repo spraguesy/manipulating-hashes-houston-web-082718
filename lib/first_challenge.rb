@@ -21,6 +21,7 @@ def first_challenge
           arr.delete_if(index)
         end
       end
+    end
   end
 
   #remember to return your newly altered contacts hash!
